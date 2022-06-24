@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #82adc6;
+        }
+
+        .container {
+            background-color: #dcc1c1;
+            border: 3px solid #00aaff;
+            /* padding: 50px; *//*<---this is used to give padding simultaneously from all side*/
+            /*we can give margin and padding to each side one by one as written below*/
+           /* padding-top: 100px;
+            padding-bottom: 10px;
+            padding-right: 50px;
+            padding-left: 20px;*/
+            /*padding: 30px 40px 50px 60px ;*//*short hand for padding i.e padding: top rigt bottom left; it can be used for margin as well*/
+            /*padding: y(top/bottom) x(left/right)*/
+            padding:35px 20px;
+            margin: 30px;
+            border-radius: 23px;
+            width: 533px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate odit, qui laborum sunt
+            tenetur iste quod voluptatum aliquam, et illo ipsum tempora tempore, sapiente cum.</p>
+    </div>
+
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate odit, qui laborum sunt
+            tenetur iste quod voluptatum aliquam, et illo ipsum tempora tempore, sapiente cum.</p>
+    </div>
+
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate odit, qui laborum sunt
+            tenetur iste quod voluptatum aliquam, et illo ipsum tempora tempore, sapiente cum.</p>
+    </div>
+
+
+</body>
+
+</html>

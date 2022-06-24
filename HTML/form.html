@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM IN HTML</title>
+</head>
+<body>
+    <h2>this is a html form</h2>
+    <form action="backend.php">
+        <label for="name">NAME:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div><br>
+        <label for="roll">ROLL:</label>
+        <div>
+            <input type="text" name="myRoll" id="roll">
+        </div><br>
+        <label for="email">EMAIL:</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div><br>
+        <label for="dob">DOB:</label>
+        <div>
+            <input type="date" name="myDate" id="dob">
+        </div><br>
+        <label for="no.">NUMBER:</label>
+        <div>
+            <input type="number" name="cgpa" id="no.">
+        </div><br>
+        <div>
+            ARE YOU ELIGIBLE: <input type="checkbox" name="eligibility" id="eligibility">
+        </div><br>
+        <div>
+            GENDER: MALE <input type="radio" name="myGender"> FEMALE <input type="radio" name="myGender"> OTHERS <input type="radio" name="myGender">
+        </div><br>
+        <label for="about">ABOUT YOURSELF:</label>
+        <div>
+            <br><textarea name="myText"  cols="30" rows="10" id="about"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" value="SUBMIT NOW">
+            <input type="reset" value="RESET NOW">
+        </div>
+        
+    </form>
+</body>
+</html>

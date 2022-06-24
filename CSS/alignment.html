@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIGNMENT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        *{
+background-color: rgba(135, 224, 180, 0.164);
+
+        }
+
+        body{
+            font-family: 'Inconsolata', monospace;
+
+        }
+        .container{
+            width: 900px;
+            border: 3px solid rgb(190, 139, 139);
+            /* margin auto sets container equally from both side*/
+            /* margin: auto; */
+            margin: 33px auto;
+            background-color: rgb(237, 204, 154);
+        }
+
+        .item{
+            border: 3px solid rgb(103, 186, 206);
+            margin: 10px 5px;
+            padding: 10px 5px;
+            background-color: rgb(184, 237, 228);
+
+        }
+        #fruits{
+            float: left;
+            width: 47.1%;
+
+        }
+
+        #computer{
+            float: right;
+            width: 47.1%;
+
+        }
+
+        #book{
+            clear: both;
+            width: 97%;
+
+        }
+        p, h3{
+            text-align: center;
+            text-align: justify;
+        }
+        h1{
+            /* text-align: center; */
+            margin: 20px auto;
+            width: 335px;
+            border: 2px solid red;
+            color: aliceblue;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="fruits" class="item">
+            <h3>FRUITS</h3>
+            <p id="fruitPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ducimus possimus reiciendis, deleniti perspiciatis optio sequi officia dolorum, natus odit saepe illo dolorem, eaque odio? Facere eos eius cupiditate quibusdam?</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>COMPUTER</h3>
+            <p id="computerPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ducimus possimus reiciendis, deleniti perspiciatis optio sequi officia dolorum, natus odit saepe illo dolorem, eaque odio? Facere eos eius cupiditate quibusdam?</p>
+        </div>
+
+        <div id="book" class="item">
+            <h3>BOOKS</h3>
+            <p id="bookPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ducimus possimus reiciendis, deleniti perspiciatis optio sequi officia dolorum, natus odit saepe illo dolorem, eaque odio? Facere eos eius cupiditate quibusdam?</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>BOOKS</h3>
+            <p id="glassesPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ducimus possimus reiciendis, deleniti perspiciatis optio sequi officia dolorum, natus odit saepe illo dolorem, eaque odio? Facere eos eius cupiditate quibusdam?</p>
+        </div>
+    </div>
+</body>
+</html>
